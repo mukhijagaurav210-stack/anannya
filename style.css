@@ -1,0 +1,121 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    
+}
+.heart{
+   position: relative;
+   margin-left: 30%;
+   margin-top: 50%;
+   left: 40%;
+    right: 50%;
+    
+    transform: translate(-50%,-50%);
+}
+.heart i{
+   
+    
+    text-shadow: 0px 0px 40px palevioletred;
+    color: red;
+    
+    font-size: 200px;
+    animation: beat 0.9s infinite;
+    text-shadow: 
+    0 0 5px red,
+    0 0 45px red,
+    0 0 90px red,
+    ;
+}
+@keyframes beat {
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.15);
+    }
+    40%{
+        transform: scale(1.4);
+    }
+}
+h1{font-size: 100px;
+    
+    
+    color: white;
+ 
+    left: 50%;
+    
+    right: 60%;
+}
+.audio{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: palevioletred;
+}
+
+audio controls{
+    background-color: #000;
+    color: palevioletred;
+}
+.para{
+    background-color: white;
+    width: 550px;
+    height: 500px;
+    color: red;
+}
+.img{
+   width: 400px;
+   height: 400px;
+   background-size: cover;
+   border: 2px solid white;
+  border-radius: 30%;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.audio2{
+    display: flex;
+    justify-content: center;
+}
+.song{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.pause{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.heartbeating{
+    display: flex;
+    justify-content: center;
+}
+.lastsong{
+    display: flex;
+    justify-content: center;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+.lastpara{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 970px;
+    height: 150px;
+    background-color: white;
+    color: red;
+}
+.love{
+    display: flex;
+    justify-content: center;
+}
+.love i{
+    width: 50px;
+    height: 50px;
+}
